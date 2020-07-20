@@ -1,4 +1,5 @@
 """
+(One liner at the bottom of the file)
 Okay, I had to write it in Lisp-style first. Otherwise, I would've driven myself insane with these nested, unformatted parenthesis.
 Each generation is not a reference to the previous generation. So, everytime a new generation is generated, an entire copy of the previous generation
 is pushed onto the call stack. This will quickly consume a ton of memory so beware with larger boards.
