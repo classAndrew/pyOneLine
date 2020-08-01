@@ -11,8 +11,10 @@ an awkward unpacking operation going on in the call to f).
 Variable bound can be added, but I just wanted to demo the basic integration over regions with equal sides (1 in this case)
 Slight warning though: THIS DOES NOT SCALE WELL... AT ALL
 In fact, I can't run the below code in under 15 minutes (it will run in O(n^k) time for k is the number of
-variables, and n is the digits of precision, here it is 2, ON TOP of all the overhead from recursive calls).
+variables, and n is the digits of precision, here it is 2 or -log(dx), ON TOP of all the overhead from recursive calls).
 In the one liner, I've swapped out the function to a 3-variable function for my computer's sake.
+
+Update: The 4-variable function surprisingly works when ran with pypy (still don't use it though, your computer will fry itself). 
 
 (lambda f, dx, a, b: 
   (lambda n:
