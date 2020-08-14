@@ -3,9 +3,13 @@
 Collection of Python one liners written as a joke (this means don't use this for production).
 
 Rules:
+</br >
 No newlines
+</br >
 No semicolons
+</br >
 No replacing code with semicolons or newlines and exec-ing.
+</br >
 Recursion for the win (Okay, but list comps allowed)
 
 Each of these files will contain one line (there may be multiple, but those are for comments that won't actually affect the program).
